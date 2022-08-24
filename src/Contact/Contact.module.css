@@ -1,0 +1,35 @@
+.contactBlock {
+    height: 40vh;
+    background-color: #a9ff94;
+}
+
+.contactContainer {
+    flex-direction: column;
+    justify-content: center;
+    background-color: #c6c6fc;
+}
+
+.formContact {
+    width: 280px;
+    height: 150px;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.feedbackTitle {
+    background-color: yellow;
+}
+
+.button {
+    width: 50px;
+    height: 35px;
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
