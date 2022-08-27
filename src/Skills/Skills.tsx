@@ -2,13 +2,14 @@ import React from 'react';
 import s from './Skills.module.css';
 import sContainer from './../Common/Styles/Container.module.css'
 import {Skill} from "./Skill/Skill";
+import {Title} from "../Common/Components/Title/Title";
 
 
 export const Skills = () => {
     return (
         <div className={s.skillsBlock}>
             <div className={`${sContainer.container} ${s.skillsContainer}`}>
-                <h2 className={s.title}>Skills</h2>
+                <Title text={"Skills"}/>
                 <div className={s.skills}>
                     <Skill title={'HTML CSS'}
                            description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do'}/>
@@ -24,5 +25,6 @@ export const Skills = () => {
             </div>
 
         </div>
-    );
+    )
+        ;
 }

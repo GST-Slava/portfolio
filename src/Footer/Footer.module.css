@@ -1,36 +1,30 @@
-.footerBlock {
-    background-color: #cf94ff;
-padding: 50px 0;
+.footer {
+    background-color: #e78181;
 }
 
 .footerContainer {
     flex-direction: column;
-    justify-content: center;
-
+    justify-content: flex-start;
 }
 
-.footerTitle {
+.title {
     background-color: gold;
 }
 
-.info {
+.socialIcons {
+    width: 250px;
     background-color: #a9ff94;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.footer {
-    min-width: 360px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    align-items: center;
+.socialIcon {
+    width: 50px;
+    height: 50px;
+    background-color: aqua;
 }
 
 .copyright {
-    background-color: #fad8f7;
-    min-width: 360px;
-    border: 1px solid;
-    flex-direction: column;
-    justify-content: end;
-    flex-wrap: wrap;
+
 }

@@ -1,0 +1,111 @@
+@import "src/Common/Styles/Sass/variables";
+
+.project {
+  width: 450px;
+  background-color: $bgThirdColor;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+
+  .imgContainer {
+    width: 100%;
+    height: 350px;
+    background-color: #e88f8f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+
+    &::before {
+      position: absolute;
+      content: '';
+      background-color: black;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      opacity: 0.3;
+    }
+
+    .readMoreBtn {
+      background: -webkit-gradient(linear, left top, right top, from(#02cfb4), to(#02cfa1));
+      background: linear-gradient(to right, #02cfb4, #02cfa1);
+      color: $textColor;
+      display: inline-block;
+      font-size: 12px;
+      font-weight: 600;
+      margin: 15px 0 5px;
+      padding: 6px 20px;
+      -webkit-transition: 0.3s;
+      transition: 0.3s;
+      text-transform: uppercase;
+      position: relative;
+      z-index: 1;
+    }
+
+    .readMoreBtn i {
+      margin-left: 5px;
+    }
+
+    .readMoreBtn:hover {
+      background: -webkit-gradient(linear, left top, right top, from(#06f6e6), to(#01f3aa));
+      background: linear-gradient(to right, #06f6e6, #01f3aa);
+      -webkit-box-shadow: 0 1px 20px rgba(22, 213, 144, 0.8);
+      box-shadow: 0 1px 20px rgba(22, 213, 144, 0.8);
+      color: $bgColor;
+    }
+
+    a {
+      font-family: 'Open Sans', sans-serif;
+      letter-spacing: 0.4px;
+      line-height: 26px;
+      overflow-x: hidden;
+      text-decoration: none;
+      background-color: transparent;
+      cursor: pointer;
+    }
+  }
+
+  .projectInfo {
+    padding: 25px;
+
+    .projectTitle {
+      font-family: 'Open Sans', sans-serif;
+      color: $primaryColor;
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 25px;
+      margin: 0;
+      letter-spacing: 0.4px;
+    }
+
+    .description {
+      font-family: 'Open Sans', sans-serif;
+      color: $textColor;
+      font-size: 13.5px;
+      font-weight: 400;
+      line-height: 23px;
+      margin: 0 0 10px;
+      letter-spacing: 0.4px;
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
