@@ -1,6 +1,6 @@
 .header {
     height: 80px;
-    background-color: #b1d4ff;
+    background: -webkit-linear-gradient(left, #00f298, #07f7f7);
     display: flex;
     justify-content: flex-end;
     align-items: center;
