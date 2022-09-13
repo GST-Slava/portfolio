@@ -1,5 +1,6 @@
 .header {
-    height: 80px;
+    height: 60px;
+    width: 100%;
     background: -webkit-linear-gradient(left, #00f298, #07f7f7);
     display: flex;
     justify-content: flex-end;

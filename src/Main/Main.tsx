@@ -8,13 +8,15 @@ const photo = {
 };
 
 
+
+
 export const Main = () => {
     return (
-        <div className={s.mainBlock}>
+        <div className={s.mainBlock} >
             <div className={`${sContainer.container} ${s.mainContainer}`}>
                 <div className={s.greetings}>
                     <span> Hi World</span>
-                    <h1>I am Slava Yakovchuk</h1>
+                    <h1>I'm Slava Yakovchuk</h1>
                     <p>Frontend Developer</p>
                 </div>
                 <div style={photo} className={s.photo}></div>
